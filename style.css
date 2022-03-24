@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	background-image: url(fon.jpg);
+  background-size: auto;
+}
+#form{
+  padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  background: rgba(138, 118, 118, 0.6);
+  text-align: center;
+}
+.form-check{
+	text-align: left;
+}
+@media screen and (max-width: 1080px) {
+.form-text{
+    margin-top: 15px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+}
+.form_button{
+        width: 70%;
+}
+}
