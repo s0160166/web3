@@ -1,0 +1,47 @@
+header{
+    background-color: #897f9eea;
+    color: #FFFFFF;
+    position: relative;
+    margin: auto;
+    font-size: calc(1vw+0.7em);
+    }
+    #shapka{
+        background-color:  #897f9eea;
+        border: 3px solid #000000;
+    }
+    body{
+        background-size: cover;
+    }
+    a{
+        color: #0a021fea;
+    }
+    .fon1{
+        width: 70%;
+        padding: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+    background: rgba(138, 118, 118, 0.6);
+    text-align: center;
+    }
+    .fon{
+        width: 50%;
+  padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+  background: rgba(138, 118, 118, 0.6);
+  text-align: center;
+    }
+    .form-group{
+
+    }
+    .pole{
+        width: 650px;
+    }
+    .btn{
+        margin-top: 10px;
+        margin-bottom: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
