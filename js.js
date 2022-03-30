@@ -40,7 +40,7 @@ const form = document.getElementById('form');
             if(date.value=== ''){
                 alert('Ошибка в поле Дата рождения!');
             }
-            if(soglasie.checked=== false){
+            if(soglasie.checked === false){
                 alert('Подтвердите согласие!');
             }
             
