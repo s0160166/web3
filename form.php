@@ -77,6 +77,10 @@ if (empty($_POST['bio'])){
 
     $errors= TRUE;
 }
+if (empty($_POST['soglasie'])){
+
+    $errors= TRUE;
+}
 
 
 // Сохранение в базу данных.
