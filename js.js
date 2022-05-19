@@ -47,7 +47,12 @@ const form = document.getElementById('form');
             
         }
         
-        
+        if(date.value=== ''){
+                alert('Введите дату рождения!');
+            }
+            if(soglasie.checked=== false){
+                alert('Подтвердите согласие!');
+            }
     }
 
     function formValidate(form) {
