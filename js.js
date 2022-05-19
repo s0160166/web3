@@ -55,6 +55,12 @@ const form = document.getElementById('form');
             if(soglasie.checked=== false){
                 alert('Подтвердите согласие!');
             }
+        if(gender.value=== ''){
+                alert('Выберите пол!');
+            }
+        if(body.value=== ''){
+                alert('Выберите количество конечностей!');
+            }
     }
 
     function formValidate(form) {
