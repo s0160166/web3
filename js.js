@@ -8,6 +8,8 @@ const form = document.getElementById('form');
             let email = document.getElementById('email');
             let date = document.getElementById('date');
             let soglasie = document.getElementById('soglasie');
+        let gender = document.getElementByName('gender');
+        let body = document.getElementByName('body');
         let error = formValidate(form);
 
         let formData = new FormData(form);
